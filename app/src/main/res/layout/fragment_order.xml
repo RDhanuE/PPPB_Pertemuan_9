@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/order_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Ticket"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginBottom="56dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/order_input_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis tiket"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Buy Ticket"
+        android:layout_marginHorizontal="32dp"
+        style="@style/CustomButton"
+        />
+
+</LinearLayout>
